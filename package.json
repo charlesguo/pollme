@@ -1,0 +1,36 @@
+{
+  "name": "pollme",
+  "version": "1.0.0",
+  "description": "Real-time poll system built using node.js, express, mongodb and socket.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "polling application",
+    "realtime",
+    "express",
+    "socket.io",
+    "mongodb"
+  ],
+  "author": "Charles Guo <charles.j.guo@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "TBD"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "bson": "*",
+    "connect-mongo": "^1.1.0",
+    "cookie-parser": "^1.4.1",
+    "ejs": "^2.4.1",
+    "errorhandler": "^1.4.3",
+    "everyauth": "^0.4.9",
+    "express": "^4.13.4",
+    "express-session": "^1.13.0",
+    "mongoose": "^4.4.14",
+    "morgan": "^1.7.0",
+    "socket.io": "^1.4.5"
+  }
+}
